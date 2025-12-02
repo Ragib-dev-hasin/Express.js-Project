@@ -1,0 +1,33 @@
+Create user
+
+http://localhost:3000/api/users/create-user?name=John&email=john@example.com&password=123456
+
+
+Read all users
+
+http://localhost:3000/api/users/all-users
+
+
+Read user by ID
+
+http://localhost:3000/api/users/user/1
+
+
+Update user
+
+http://localhost:3000/api/users/update-user?id=1&name=Johnny&email=johnny@example.com
+
+
+Delete user
+
+http://localhost:3000/api/users/delete-user?id=1
+
+
+Login
+
+http://localhost:3000/api/users/login?email=john@example.com&password=123456
+
+
+Search users
+
+http://localhost:3000/api/users/search?q=john
